@@ -99,6 +99,7 @@ hr.small {
     display: block;
     text-decoration: none;
     color: #999;
+    font-size: 35px;
 }
 
 .sidebar-nav li a:hover {
@@ -155,7 +156,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -246,9 +247,12 @@ footer {
 
 #services  {
     background-color: #f0f;
-    font-family: "Amatic SC";
 }
 
 #services .text-primary  {
     color: #f0f;
+}
+
+.other-font {
+    font-family: "Amatic SC";
 }
