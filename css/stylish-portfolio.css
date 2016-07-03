@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: "Amatic SC", "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-vertical-center {
@@ -246,6 +246,7 @@ footer {
 
 #services  {
     background-color: #f0f;
+    font-family: "Amatic SC";
 }
 
 #services .text-primary  {
