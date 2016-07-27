@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box !important;
+}
+
+body {
+	text-align: center;
+	font-family: 'Amatic SC', sans-serif;
+	background: url(img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin: 0;
+}
+
+#construction {
+	background-color: rgba(255,255,255,0.5);
+	width: 100%;
+	height: 500px;
+	padding: 50px;
+	position: absolute;
+	top: 50%; 
+	margin-top: -250px;
+}
+
+#construction img{
+	position: relative;
+	height: 300px;
+}
+
+h2 {
+	font-weight: 200;
+	font-size: 50px;
+	color: white;
+	text-shadow: 0 0 16px #000,0 0 16px #000,0 0 16px #000;
+}
